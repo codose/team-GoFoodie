@@ -20,7 +20,7 @@ img{
   /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .column {
-      width: 300px;
+      width: 320px;
       display: block;
     }
   }
