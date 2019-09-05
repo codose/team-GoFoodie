@@ -1,6 +1,9 @@
 /* Three columns side by side */
+body,p,h2{
+    font-family: 'Poppins', helvetica, arial, sans-serif;
+}
 img{
-    height: 300px;
+    height: 350px;
     position: fluid;
     overflow: hidden;
 }
@@ -10,11 +13,14 @@ img{
     margin-bottom: 16px;
     padding: 0 8px;
   }
+  .code{
+      color: #ff0000;
+  }
   
   /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .column {
-      width: 100%;
+      width: 300px;
       display: block;
     }
   }
